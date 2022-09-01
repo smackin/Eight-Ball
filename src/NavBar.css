@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 10 vh;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+
+}
+
+nav .logo {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 32%;
+}
+
+nav .nav-links a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav .nav-links a:hover {
+    border-bottom: 2px solid black;
+}
